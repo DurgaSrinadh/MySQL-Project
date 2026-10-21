@@ -1,6 +1,5 @@
 USE sales_analysis;
 
--- Run only once on a fresh database.
 INSERT INTO customers (customer_name, email, city) VALUES
 ('Arun Kumar', 'arun@example.com', 'Hyderabad'),
 ('Priya Sharma', 'priya@example.com', 'Mumbai'),
